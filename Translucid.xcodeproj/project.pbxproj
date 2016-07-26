@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDD2E8851D47650F00415568 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD2E8841D47650F00415568 /* AppDelegate.swift */; };
+		FDD2E8871D47650F00415568 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD2E8861D47650F00415568 /* ViewController.swift */; };
+		FDD2E88A1D47650F00415568 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD2E8881D47650F00415568 /* Main.storyboard */; };
+		FDD2E88F1D47651000415568 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD2E88D1D47651000415568 /* LaunchScreen.storyboard */; };
+		FDD2E8971D47651E00415568 /* Translucid.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD2E8961D47651E00415568 /* Translucid.swift */; };
+		FDD2E8991D476CF200415568 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD2E8981D476CF200415568 /* Assets.xcassets */; };
+		FDD2E89C1D476DFD00415568 /* shoua in Resources */ = {isa = PBXBuildFile; fileRef = FDD2E89B1D476DFD00415568 /* shoua */; };
+		FDD2E8A71D4772E200415568 /* Starjedi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDD2E8A51D4772CE00415568 /* Starjedi.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		FDD2E89A1D476D6700415568 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = image.tiff;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# builtin-copyTiff\n";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		FDD2E8811D47650F00415568 /* Translucid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Translucid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD2E8841D47650F00415568 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDD2E8861D47650F00415568 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDD2E8891D47650F00415568 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDD2E88E1D47651000415568 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDD2E8901D47651000415568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDD2E8961D47651E00415568 /* Translucid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Translucid.swift; sourceTree = "<group>"; };
+		FDD2E8981D476CF200415568 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDD2E89B1D476DFD00415568 /* shoua */ = {isa = PBXFileReference; lastKnownFileType = folder; path = shoua; sourceTree = "<group>"; };
+		FDD2E8A51D4772CE00415568 /* Starjedi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjedi.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDD2E87E1D47650F00415568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDD2E8781D47650F00415568 = {
+			isa = PBXGroup;
+			children = (
+				FDD2E8831D47650F00415568 /* Translucid */,
+				FDD2E8821D47650F00415568 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDD2E8821D47650F00415568 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDD2E8811D47650F00415568 /* Translucid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDD2E8831D47650F00415568 /* Translucid */ = {
+			isa = PBXGroup;
+			children = (
+				FDD2E8A41D4772B400415568 /* Ressources */,
+				FDD2E8841D47650F00415568 /* AppDelegate.swift */,
+				FDD2E8861D47650F00415568 /* ViewController.swift */,
+				FDD2E8881D47650F00415568 /* Main.storyboard */,
+				FDD2E8981D476CF200415568 /* Assets.xcassets */,
+				FDD2E88D1D47651000415568 /* LaunchScreen.storyboard */,
+				FDD2E8901D47651000415568 /* Info.plist */,
+				FDD2E8961D47651E00415568 /* Translucid.swift */,
+				FDD2E89B1D476DFD00415568 /* shoua */,
+			);
+			path = Translucid;
+			sourceTree = "<group>";
+		};
+		FDD2E8A41D4772B400415568 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				FDD2E8A51D4772CE00415568 /* Starjedi.ttf */,
+			);
+			name = Ressources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDD2E8801D47650F00415568 /* Translucid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD2E8931D47651000415568 /* Build configuration list for PBXNativeTarget "Translucid" */;
+			buildPhases = (
+				FDD2E87D1D47650F00415568 /* Sources */,
+				FDD2E87E1D47650F00415568 /* Frameworks */,
+				FDD2E87F1D47650F00415568 /* Resources */,
+			);
+			buildRules = (
+				FDD2E89A1D476D6700415568 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Translucid;
+			productName = Translucid;
+			productReference = FDD2E8811D47650F00415568 /* Translucid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDD2E8791D47650F00415568 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zhai;
+				TargetAttributes = {
+					FDD2E8801D47650F00415568 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FDD2E87C1D47650F00415568 /* Build configuration list for PBXProject "Translucid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDD2E8781D47650F00415568;
+			productRefGroup = FDD2E8821D47650F00415568 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDD2E8801D47650F00415568 /* Translucid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDD2E87F1D47650F00415568 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD2E8A71D4772E200415568 /* Starjedi.ttf in Resources */,
+				FDD2E88F1D47651000415568 /* LaunchScreen.storyboard in Resources */,
+				FDD2E89C1D476DFD00415568 /* shoua in Resources */,
+				FDD2E8991D476CF200415568 /* Assets.xcassets in Resources */,
+				FDD2E88A1D47650F00415568 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDD2E87D1D47650F00415568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD2E8871D47650F00415568 /* ViewController.swift in Sources */,
+				FDD2E8971D47651E00415568 /* Translucid.swift in Sources */,
+				FDD2E8851D47650F00415568 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDD2E8881D47650F00415568 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDD2E8891D47650F00415568 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDD2E88D1D47651000415568 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDD2E88E1D47651000415568 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDD2E8911D47651000415568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDD2E8921D47651000415568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDD2E8941D47651000415568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Translucid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhaitao.Translucid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDD2E8951D47651000415568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Translucid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhaitao.Translucid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDD2E87C1D47650F00415568 /* Build configuration list for PBXProject "Translucid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD2E8911D47651000415568 /* Debug */,
+				FDD2E8921D47651000415568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDD2E8931D47651000415568 /* Build configuration list for PBXNativeTarget "Translucid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD2E8941D47651000415568 /* Debug */,
+				FDD2E8951D47651000415568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDD2E8791D47650F00415568 /* Project object */;
+}
